@@ -1,0 +1,28 @@
+{
+  "name": "graphql-ts",
+  "version": "1.0.0",
+  "description": "this is test for graphql in typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "ts-node-dev --respawn index.ts",
+    "start": "nodemon index.ts"
+  },
+  "author": "roshan",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.14.4",
+    "class-validator": "^0.12.2",
+    "express": "^4.17.1",
+    "graphql": "^15.1.0",
+    "mongodb": "^3.5.9",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.0.0-rc.2"
+  },
+  "devDependencies": {
+    "@types/mongodb": "^3.5.20",
+    "ts-node": "^8.10.2",
+    "ts-node-dev": "^1.0.0-pre.49",
+    "typescript": "^3.9.5"
+  }
+}
